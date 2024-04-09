@@ -41,4 +41,6 @@ document
         alert("La direcció de correu electronica no es valida");
     }
     //data de naixament has de ser major de  18 anys
+
+    //com guardar les dades en el navegador(cookies, local estorague)
   });
