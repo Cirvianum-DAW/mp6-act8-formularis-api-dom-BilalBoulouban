@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Registra't per conèixer la previsió del temps</h1>
+        <form id="registerForm" novalidate>
+            <label for="firstName">Nom:</label><br>
+            <input type="text" id="firstName" required><br>
+
+            <label for="lastName">Cognom:</label><br>
+            <input type="text" id="lastName" required><br>
+
+            <label for="email">Correu:</label><br>
+            <input type="email" id="email" required><br>
+
+            <label for="passwd">Contrasenya:</label><br>
+            <input type="password" id="passwd" required>
+
+            <label for="dni">DNI:</label><br>
+            <input type="text" id="dni" required><br>
+
+            <label for="birthdate">Data de naixament:</label><br>
+            <input type="date" id="birthdate" required><br>
+
+            <label for="gender">Genere</label>
+            <select id="gender" required>
+                <option value="male">Home</option>
+                <option value="female">Donna</option>
+            </select>
+            <label for="terms">Acceptar condicions</label>
+            <input type="checkbox" id="terms" required>
+            <button type="submit" value="Registra't">
+        </form>
+        <script  src="login.js"></script>
+    </div>
+</body>
+
+</html>
